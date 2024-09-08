@@ -1,14 +1,15 @@
 import { CommonModule } from '@angular/common';
-import { LikeWidgetModule } from '../like-widget/like-widget.module';
 import { NgModule } from '@angular/core';
+
+import { LikeWidgetModule } from '../like-widget/like-widget.module';
 import { PhotoFrameComponent } from './photo-frame.component';
 
 @NgModule({
-    declarations: [PhotoFrameComponent],
-    imports: [
-        CommonModule,
-        LikeWidgetModule
-    ],
-    exports: [PhotoFrameComponent]
+  declarations: [PhotoFrameComponent],
+  imports: [
+    CommonModule,
+    LikeWidgetModule
+  ],
+  exports: [PhotoFrameComponent]
 })
-export class PhotoFrameModule { }
+export class PhotoFrameModule {}
